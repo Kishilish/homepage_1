@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/4919f48fc4.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function () {
+        $(".headB").slideToggle();
+      });
+    });
+  </script>
+</head>
+<body class="nohero">
+  <header>
+    <div class="container">
+      <div class="container-small">
+        <a href="index.html" class="headA">Kota,Koharu</a>
+        <button type="button" class="headC">
+          <span class="fa fa-bars" title="menu"></span>
+        </button>
+      </div>
+      <nav class="headB">
+        <ul>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="contents.html">コンテンツ</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <article class="post">
+    <div class="container">
+
+      
+      <h1>お問い合わせ</h1>
+      <p>Kota,Koharuについてのご質問等がございましたら、下記の窓口よりお問い合わせ下さい。</p>
+      <div class="contact-wrap">
+        <div class="contact">
+          <span class="fa fa-phone"></span>
+          <h2>電話番号</h2>
+          <a href="tel:044-331-****">044-331-****</a>
+        </div>
+        <div class="contact">
+          <span class="fa fa-envelope"></span>
+          <h2>Eメール</h2>
+          <a href="mailto:kotakoharu@mail.co.jp">kotakoharu@mail.co.jp</a>
+        </div>
+      </div>
+    </div>
+  </article>
+  <aside class="location">
+    <h2>LOCATION</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8453078753882!2d140.17867911562897!3d35.73002278018307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228627b33cd29d%3A0x36566fed4f997859!2z5Lqs5oiQ6Ie85LqV6aeF!5e0!3m2!1sja!2sjp!4v1604802988532!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </aside>
+  <footer>
+    <div class="container">
+      <div class="footA">
+        <h2>Kota,Koharu</h2>
+        <p>〒000-0000 東京都千葉県神奈川県<br>
+        <a href="http://www">http:///www</a>
+        </p>
+
+
+        <nav class="footD">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="fa fa-twitter" title="twitter"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-facebook" title="facebook"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-google-plus" title="Google Plus"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-instagram" title="instagram"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa fa-youtube" title="youtube"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav class="footB">
+        <div>
+          <h3>ABOUT</h3>
+          <ul>
+            <li><a href="#">設立</a></li>
+            <li><a href="#">所在地</a></li>
+            <li><a href="#">地図</a></li>
+            <li><a href="#">スタッフ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>SUPPORT</h3>
+          <ul>
+            <li><a href="#">ダウンロード</a></li>
+            <li><a href="#">マニュアル</a></li>
+            <li><a href="#">よくある質問</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>CONTENTS</h3>
+          <ul>
+            <li><a href="#">お知らせ</a></li>
+            <li><a href="#">ビジネス</a></li>
+            <li><a href="#">プロフィール</a></li>
+            <li><a href="#">開発者</a></li>
+            <li><a href="#">ブログ</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="footC">
+        &copy; Kota,Koharu corp. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
